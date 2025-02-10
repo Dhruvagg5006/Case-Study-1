@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=int(input())
+tot=a+b+c
+if(tot>50):
+  tot=tot-0.1*tot
+  print(tot)
+else:
+  print(tot)
